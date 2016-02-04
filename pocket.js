@@ -116,11 +116,16 @@ $(document).ready(function(){
             return false;
         }); //end pencil
     
-    // hide button
-    $('nav div#hide').click(
+    // show all
+    $(function(){
+       $('nav div#show').click(
         function(){
-            $('section p').hide();
-            return false;
+            $('section img#laptop').attr('src','images/laptopF.svg').fadeIn();
         });
+    });
+    
+    
+    
+   
     
 }); //end ready
