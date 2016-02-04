@@ -116,4 +116,11 @@ $(document).ready(function(){
             return false;
         }); //end pencil
     
+    // hide button
+    $('nav div#hide').click(
+        function(){
+            $('section p').hide();
+            return false;
+        });
+    
 }); //end ready

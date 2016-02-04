@@ -30,17 +30,33 @@ h1 {
     font-size: 2.5em;
     letter-spacing: 1.7px;
 }
+nav {
+    position: absolute;
+    right: 15px;
+    top: 400px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 165%;
+    text-align: center;
+    font-size: 80%;   
+}
+nav a:hover {
+    letter-spacing: normal;
+    color: aquamarine;
+}
+nav div#hide {
+    margin-top: -21px;
+}
 section img, p {
     position: absolute;
 }
 section p {
-    visibility: hidden;
-}
-
-p#laptop, p#bottle, p#planner, p#phone, p#pencil {
     position: absolute;
-    font-family: monospace;
+    font-family: 'roboto condensed',sans-serif;
     font-size: 11px;
+    visibility: hidden;
+    letter-spacing: .7px;
+    line-height: 110%;
 }
 #laptop {
     top: 170px;
@@ -57,8 +73,8 @@ p#laptop {
     left: 850px;
 }
 p#bottle {
-    width: 160px;
-    top: 350px;
+    width: 140px;
+    top: 355px;
     left: 975px;
 }
 #planner {
@@ -86,4 +102,20 @@ p#phone {
 }
 p#pencil {
     top: 450px;
+    left: 150px;
+}
+
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #212121;
+}
+a:hover {
+    color: orange;
+    letter-spacing: 2px;
+}
+
+button {
+    background-color: transparent;
 }
