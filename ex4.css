@@ -12,14 +12,15 @@ header {
     background-color: #f0f0f0;
 }
 header p{
-    top: 120px;
-    left: 406px;
+    position: absolute;
+    top: 110px;
+    left: 405px;
     width: auto;
     font-family: 'oswald';
     font-weight: 300;
     letter-spacing: 1.2px;
     text-transform: uppercase; 
-    margin-top: -13px;
+    text-align: center;
 }
 h1 {
     position: relative;
@@ -30,79 +31,70 @@ h1 {
     font-size: 2.5em;
     letter-spacing: 1.7px;
 }
-nav {
+h6 {display: none;}
+aside {
     position: absolute;
     right: 15px;
-    top: 400px;
+    top: 380px;
     font-weight: 300;
     text-transform: uppercase;
-    line-height: 165%;
+    line-height: 175%;
     text-align: center;
-    font-size: 80%;   
+    font-size: 80%; 
 }
-nav a:hover {
-    letter-spacing: normal;
-    color: aquamarine;
-}
-nav div#hide {
-    margin-top: -21px;
-}
-section img, p {
+article, p {
     position: absolute;
 }
-section p {
-    position: absolute;
+article p {
     font-family: 'roboto condensed',sans-serif;
     font-size: 11px;
-    visibility: hidden;
     letter-spacing: .7px;
     line-height: 110%;
 }
-#laptop {
+.laptop {
     top: 170px;
     left: 350px;
 }
-p#laptop {
-    top: 350px;
-    left: 95px;
-    width: 300px;
+article.laptop p{
     text-align: right;
+    top: 190px;
+    left: -160px;
 }
-#bottle {
+.bottle {
     top: 140px;
     left: 850px;
 }
-p#bottle {
+article.bottle p{
     width: 140px;
-    top: 355px;
-    left: 975px;
+    top: 220px;
+    left: 115px;
 }
-#planner {
+.planner {
     top: 500px;
     left: 880px;
 }
-p#planner {
-    top: 645px;
-    left: 840px;
+article.planner p{
+    top: 100px;
+    left: -90px;
     width: 90px;
     text-align: right;
 }
-#phone {
+.phone {
     top: 580px;
     left: 300px;
 }
-p#phone {
-    top: 595px;
-    left: 575px;
+article.phone p{
+    top: 20px;
+    left: 270px;
     width: 180px;
 }
-#pencil {
+.pencil {
     left: 120px;
     top: 430px;
 }
-p#pencil {
-    top: 450px;
-    left: 150px;
+article.pencil p{
+    top: 10px;
+    left: 52px;
 }
 
 footer {
@@ -122,7 +114,19 @@ a:hover {
     color: orange;
     letter-spacing: 2px;
 }
-
-button {
-    background-color: transparent;
+/*
+aside a:link, aside a:visited {
+    color: #3b3b3b;
 }
+aside a:hover {
+    letter-spacing: normal;
+    color: aquamarine;
+}
+aside div#hide {
+    margin-top: -20px;
+}
+section img, p {
+    position: absolute;
+}
+
+*/
